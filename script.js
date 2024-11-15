@@ -17,7 +17,7 @@ async function displayMessage() {
   }
 
   // Clear previous output and introduce delay
-  outputDiv.textContent = 'Loading...';
+  //outputDiv.textContent = 'Loading...';
   await wait(Number(delayInput));
 
   // Display the user-provided text
